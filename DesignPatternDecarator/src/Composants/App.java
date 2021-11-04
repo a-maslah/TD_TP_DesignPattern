@@ -11,8 +11,6 @@ public class App {
         /*Composants.Boisson boisson = new Composants.Deca();
         System.out.println(boisson.getDescription()+" "+boisson.cout());
          */
-
-
         Boisson b1=new Chantilly(new Caramel(new Chocolat(new Chantilly(new Chocolat(new Vanille(new Sumetra()))))));
 
         System.out.println(b1.getDescription());
